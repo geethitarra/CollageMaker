@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <title>Collage Maker</title>
+    <link rel="stylesheet" href="textinput.css">
+    <script src = "textInput.js"></script>
+</head>
+
+<body>
+    <h1>Enter your image descriptions!</h1>
+    <form id = "form" action ="/url" method="GET">
+        <h2>Personal Image Description:</h2>
+        <textarea id = "personalDesc" type="text" wrap ="virtual" class = height required></textarea> <!--textarea code learned from and credit to WebMaster Youtube videohttps://www.youtube.com/watch?v=asUBu38Cerg&ab_channel=WebMaster required code learned from and credited to GeeksforGeeks https://www.geeksforgeeks.org/html-input-required-attribute/-->
+        <h2>Hobbies Image Description</h2>
+        <textarea id = "hobbiesDesc" type="text" wrap ="virtual" class = height required></textarea>
+        <h2>Family Image Description</h2>
+        <textarea id = "famDesc" type="text" wrap ="virtual" class = height required></textarea><br><br><br>
+        <button type="submit" onclick=setVarSubmit()>Submit</button>
+    </form>
+
+</body>
+</html>
