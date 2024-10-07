@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <title>Collage Template</title>
+    <link rel="stylesheet" href="template.css">
+    <script src = "select.js"></script>
+</head>
+
+<body>
+    <h1>Pick a template!</h1>
+    <img src="template1.jpg" alt="Template 1">
+    <img src="template2.jpg" alt="Template 2">
+    <img src="template3.jpg" alt="Template 3">
+
+    <form name = templateForm id = "radioButton">
+        <label><input class = "radio" id = "radio1" type="radio" name="Template" value="template1.png" checked = "checked">Template 1</label>
+        <label><input class = "radio" id = "radio1" type="radio" name="Template" value="template2.jpeg">Template 2</label>
+        <label><input class = "radio" id = "radio1" type="radio" name="Template" value="template3.jpeg">Template 3</label>
+    </form>
+    <button id = "buttonSubmit" class="button button2" onclick="assignVar()">Submit</button>
+
+
+</body>
+</html>
