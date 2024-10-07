@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="upload.css">
+    <script src="imageUP.js"></script>
+    <title>Image Upload</title>
+  </head>
+  
+  <body style="text-align: center;">
+    <h1>Upload your images!</h1>
+    <h2>Personal Image</h2> <!-- Start Image Upload code credited to Daphne Huang-->
+        <img id="p-output" width="200" />	
+        <input type="file" onchange="showImage()" class = "p-input" id="personal-image-input" accept="image/png image/jpeg image/jpg"/><br />
+    <h2>Family Image</h2>
+        <img id="f-output" width="200" />	
+        <input type="file" onchange="showImage()" class = "f-input" id="family-image-input" accept="image/png image/jpeg image/jpg"/><br />
+    <h2>Hobby Image</h2>
+        <img id="h-output" width="200" />	
+        <input type="file" onchange="showImage()" class = "h-input" id="hobby-image-input" accept="image/png image/jpeg image/jpg"/><br><br><br> <!-- End Image Upload code credited to Daphne Huang-->
+        <button class="button button1" onclick = "setVarSubmit()">Submit</button>
+  </body>
+
+</html>
+
