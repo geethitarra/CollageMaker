@@ -1,0 +1,38 @@
+h1 {
+    color: navy;
+    text-align: center;
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    color: #5D3FD3;
+    font-size: 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: lightgray;
+    background-image: url('backdrop.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.button1{
+    position: absolute;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 670px;
+    border-color: #5D3FD3;
+    color: white;
+    background-color: #5D3FD3;
+    padding: 10px; 
+}
+button:hover {
+    background-color: purple;
+    border-color: purple;
+    color: white;
+}
